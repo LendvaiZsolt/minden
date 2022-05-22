@@ -16,7 +16,7 @@ public class BeolvasasScanner {
 	}
 	
 
-	// int beolvasása ellenőrzöttten I.;
+	// int beolvasása ellenőrzöttten I.; Main metóduson kívül!
 	public static int intInput() {
 		Scanner input = new Scanner(System.in);
 		boolean ok = true;
@@ -36,7 +36,7 @@ public class BeolvasasScanner {
 		return i;
 	}
 
-	// int beolvasása ellenőrzöttten II.;
+	// int beolvasása ellenőrzöttten II.; Main metóduson kívül!
 	public static int intInput2() {
 		Scanner input = new Scanner(System.in);
 		int n = 0;
@@ -50,13 +50,10 @@ public class BeolvasasScanner {
 			n = input.nextInt();
 			//input.nextLine();
 		} while (n<1 || n>10);
-
-
-
 		return n;
 	}
 
-	// String beolvasása;
+	// String beolvasása; Main metóduson kívül!
 	public static String strInput() {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Adj meg egy stringet!");

@@ -41,4 +41,5 @@ public class Ciklusok {
 		System.out.println(sum3);
 		System.out.println("****");
 	}
+
 }

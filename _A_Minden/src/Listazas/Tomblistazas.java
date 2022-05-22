@@ -17,5 +17,13 @@ public class Tomblistazas {
 		}
 
 	}
+	
+	/* FOREACH tömb
+	 * 	public static void kiir(Homerseklet[] hom) {
+		for (Homerseklet h : hom) {
+			System.out.println(h);
+		}
+	}
+	*/
 
 }
