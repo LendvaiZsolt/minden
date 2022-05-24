@@ -1,4 +1,4 @@
-package TombLetrehozas;
+package tombletrehozas;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

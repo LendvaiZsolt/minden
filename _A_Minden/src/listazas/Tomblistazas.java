@@ -1,4 +1,4 @@
-package Listazas;
+package listazas;
 
 public class Tomblistazas {
 

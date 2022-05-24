@@ -14,7 +14,6 @@ public class BeolvasasScanner {
 		System.out.println("Ezt a strinegt adtad meg: " + strInput());
 		System.out.println("Most meg ezt az új számot adtad meg: " + intInput2());
 	}
-	
 
 	// int beolvasása ellenőrzöttten I.; Main metóduson kívül!
 	public static int intInput() {
@@ -48,9 +47,29 @@ public class BeolvasasScanner {
 				input.nextLine();
 			}
 			n = input.nextInt();
-			//input.nextLine();
-		} while (n<1 || n>10);
+			// input.nextLine();
+		} while (n < 1 || n > 10);
 		return n;
+	}
+
+	// int beolvasása ellenőrzöttten III.; Main metóduson kívül!
+	public static int intin() {
+		int i = 0;
+		Scanner input = new Scanner(System.in);
+		do {
+			try {
+				do {
+					System.out.println("Adj meg egy számot 1 és 10 között!");
+					i = input.nextInt();
+				} while (i < 1 || i > 10);
+
+			} catch (Exception e) {
+				System.out.println("Ez nem szám.");
+				input.nextLine();
+			}
+		} while (i < 1 || i > 10);
+		return i;
+
 	}
 
 	// String beolvasása; Main metóduson kívül!
