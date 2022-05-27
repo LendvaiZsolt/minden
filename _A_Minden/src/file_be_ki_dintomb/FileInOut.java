@@ -7,7 +7,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class FileNevsor {
+public class FileInOut {
 
 	public static void main(String[] args) throws IOException {
 		ArrayList<String> nevsorki = new ArrayList<String>();
